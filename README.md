@@ -68,7 +68,7 @@ Use [Google Colab](https://colab.research.google.com/) or Jupyter, then follow t
 | Song A         | 0.85         | 0.78   | 0.60    | 122   |
 | Song B         | 0.67         | 0.88   | 0.45    | 140   |
 
-![Screenshot](your-visualization.png)
+
 
 ---
 
