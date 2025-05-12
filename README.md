@@ -45,3 +45,40 @@ This project uses the Spotify Web API to analyze your top tracks and explore aud
 - Go to [Spotify Developer Dashboard](https://developer.spotify.com/dashboard)
 - Create an app
 - Set **Redirect URI** to:
+- - Copy your **Client ID** and **Client Secret**
+
+---
+
+### 2. Run the Notebook
+
+Use [Google Colab](https://colab.research.google.com/) or Jupyter, then follow these steps:
+
+1. Paste your credentials
+2. Run the code blocks in order
+3. Go to the printed authorization URL and approve
+4. Paste the code from the redirected link
+5. View your results!
+
+---
+
+## 🧪 Sample Output
+
+| Track           | Danceability | Energy | Valence | Tempo |
+|----------------|--------------|--------|---------|-------|
+| Song A         | 0.85         | 0.78   | 0.60    | 122   |
+| Song B         | 0.67         | 0.88   | 0.45    | 140   |
+
+![Screenshot](your-visualization.png)
+
+---
+
+## ❗ Common Errors & Fixes
+
+| Error Message                                | Meaning                           | Fix |
+|---------------------------------------------|-----------------------------------|-----|
+| `403 Forbidden`                              | Bad or expired access token       | Regenerate token using fresh auth code |
+| `⚠️ Spotify API returned no audio features`  | Track IDs may be invalid or private | Try another Spotify account |
+| `🛑 Cannot create DataFrame`                 | No data retrieved from API        | Ensure top tracks were fetched correctly |
+
+---
+
