@@ -81,4 +81,6 @@ Use [Google Colab](https://colab.research.google.com/) or Jupyter, then follow t
 | `🛑 Cannot create DataFrame`                 | No data retrieved from API        | Ensure top tracks were fetched correctly |
 
 ---
+## 🚧 Project Status: In Development
 
+This app is under active development. The Spotify get feature API is deprecated
